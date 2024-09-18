@@ -4,4 +4,15 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>GetFileTransferController</servlet-name>
+    <display-name>GetFileTransferController</display-name>
+    <description></description>
+    <servlet-class>com.swaruph.web.GetFileTransferController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetFileTransferController</servlet-name>
+    <url-pattern>/upload</url-pattern>
+  </servlet-mapping>
 </web-app>
+
